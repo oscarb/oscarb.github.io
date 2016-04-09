@@ -3,7 +3,6 @@ layout: default
 title: oscarb.se - Technology and Learning
 ---
 
-*Hello world* with Markdown.
+**Oscar** is my name. Hi!
 
-# Heading 1
-## Heading 2 
+I'm teaching the art of creating Android apps and Java software. I design user and developer experiences that simplifies everyday life.
