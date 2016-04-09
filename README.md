@@ -1,5 +1,5 @@
 # oscarb.github.io
-Official personal website and portfolio
+Official personal website and portfolio, see http://oscarb.github.io/
 
 ## Resources
 
