@@ -1,2 +1,4 @@
 name: oscarb.se - Technology and Learning
 markdown: kramdown
+sass:
+    style: compressed
