@@ -4,6 +4,8 @@
      baseProfile="full"
      viewBox="0 0 70 70"
      xmlns="http://www.w3.org/2000/svg">
+     <title>oscarb logotype</title>
+     <desc>Blue narrow and wide rectangle-shaped logotype for Oscar B</desc>
      <defs>
           <mask id="hole">
                <rect width="100%" height="100%" fill="white" />
