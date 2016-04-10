@@ -2,11 +2,7 @@
      baseProfile="full"
      width="600" height="400"
      xmlns="http://www.w3.org/2000/svg">
-     <defs>
-          <clipPath id="cut-off-inside">
-               <rect x="100" y="100" width="300" height="100"/>
-          </clipPath>
-     </defs>
+
      <!--
        <rect width="500" height="300" fill="#184b81" clip-path="url(#cut-off-inside)" />
      -->
