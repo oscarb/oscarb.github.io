@@ -7,6 +7,8 @@
                <rect x="100" y="100" width="300" height="100"/>
           </clipPath>
      </defs>
- 
+     <!--
        <rect width="500" height="300" fill="#184b81" clip-path="url(#cut-off-inside)" />
+     -->
+     <rect width="500" height="300" fill="#184b81" clip-path="url(#cut-off-inside)" stroke="black" stroke-width="100"/>
 </svg>
