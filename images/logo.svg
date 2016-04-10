@@ -8,5 +8,5 @@
                <rect x="200" y="200" width="300" height="100" />
           </mask>
      </defs>
-     <rect x="100" y="100" width="500" height="300" fill="#184b81" mask="url(#hole)"/>
+     <rect x="100" y="300" width="500" height="300" fill="#184b81" mask="url(#hole)"/>
 </svg>
