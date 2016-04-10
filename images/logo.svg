@@ -8,5 +8,5 @@
                <rect x="2" y="3" width="3" height="1" />
           </mask>
      </defs>
-     <rect x="1" y="2" width="5" height="3" fill="#184b81" mask="url(#hole)"/>
+     <rect id="logotype-shape" x="1" y="2" width="5" height="3" fill="#184b81" mask="url(#hole)"/>
 </svg>
