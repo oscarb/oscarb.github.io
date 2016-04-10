@@ -10,5 +10,5 @@
      <!--
        <rect width="500" height="300" fill="#184b81" clip-path="url(#cut-off-inside)" />
      -->
-     <rect width="500" height="300" fill="#184b81" stroke="black" stroke-width="100"/>
+     <rect width="500" height="300" stroke="black" stroke-width="100"/>
 </svg>
