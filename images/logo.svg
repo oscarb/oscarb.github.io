@@ -4,6 +4,5 @@
      xmlns="http://www.w3.org/2000/svg">
   <g fill-rule="evenodd" fill="blue" >
        <rect width="50" height="30" fill="#184b81" />
-         <rect width="30" height="10"/>
   </g>
 </svg>
