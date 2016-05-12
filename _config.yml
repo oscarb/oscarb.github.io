@@ -1,4 +1,6 @@
 name: oscarb.se - Technology and Learning
 markdown: kramdown
 sass:
-    style: compressed
+  style: compressed
+gems:
+  - jekyll-seo-tag
