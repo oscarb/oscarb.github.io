@@ -1,4 +1,12 @@
+# Site config
 name: oscarb.se - Technology and Learning
+description: Simplifying everyday life through teaching, designing and programming.
+# url: oscarb.se
+# author
+# logo
+# social
+
+# Jekyll config
 markdown: kramdown
 sass:
   style: compressed
