@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "oscarb.se - Technology and Learning"
 published: true
 ---
 
