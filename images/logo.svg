@@ -12,5 +12,5 @@
                <rect x="20" y="30" width="30" height="10" />
           </mask>
      </defs>
-     <rect id="logotype-shape" x="10" y="20" width="50" height="30" fill="#184b81" mask="url(#hole)"/>
+     <rect id="logotype-shape" x="10" y="20" width="50" height="30" fill="#fff" mask="url(#hole)"/>
 </svg>

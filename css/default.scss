@@ -4,9 +4,16 @@
 /* =======
    Styles
    ======= */
-body {
 
-}
+
+/* Breakpoints:
+ - mobile (min-device-width : 320px) and (max-device-width : 480px)
+ - tablets (min-device-width : 768px) and (max-device-width : 1024px)
+http://1stwebdesigner.com/responsive-design-breakpoints/
+ - https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints
+https://cloudfour.com/thinks/the-ems-have-it-proportional-media-queries-ftw/
+http://bradfrost.com/demo/ish/
+*/
 
 /* Default link styling */
 a:link { color:#0271fb; }
@@ -14,12 +21,178 @@ a:visited { color:#bd02fb; }
 a:hover, a:focus { color:#000; }
 a:active { color:#fb0e02; }
 
-img { 
-  width: 150px;
-  height: 150px;
+
+// Config
+$portraitSize: 150px;
+$portraitBorderSize: 6px;
+
+$logotypeWidth: 40px;
+
+$oceanBlue: #184b81;
+$nearWhite: rgb(255, 255, 255);
+$nearBlack: rgba(0, 0, 0, .80);
+
+$mainBackgroundTopOffset: 65%;
+
+$mainBackgroundTopOffsetPx: $mainBackgroundTopOffset/100%*($portraitSize+$portraitBorderSize*2);
+
+$primaryColor: $oceanBlue;
+
+
+
+/* Flexbox test */
+
+html {
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
 }
 
-#logotype-shape { fill: #f00; }
+body {
+  background-color: $nearWhite;
+  color: $nearBlack;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+// Centering flexible content
+body::before, body::after{
+  content: '';
+  flex: 1 0 auto;
+}
+
+body::before {
+  background-color: $nearWhite;
+}
+
+main {
+  color: $nearWhite;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: $primaryColor;
+}
+
+body::after {
+  background-color: $primaryColor;
+}
+
+
+/* Mobile-first */
+
+// List links should have more space...
+ul {
+  line-height: 200%;
+}
+
+h1 {
+  text-align: center;
+  font-size: x-large;
+  margin: 0;
+  background-color: $nearWhite;
+  color: $nearBlack;
+  font-weight: normal;
+
+  strong {
+    display: block;
+    font-size: xx-large;
+  }
+}
+
+.portrait {
+  position: relative;
+  background: linear-gradient($nearWhite $mainBackgroundTopOffset, $primaryColor 0%)
+}
+
+
+.portrait img {
+  width: $portraitSize;
+  height: $portraitSize;
+  border: 6px solid $nearWhite;
+  border-radius: 50%;
+}
+
+
+.portrait p {
+  margin: 0;
+  padding: 0;
+}
+
+
+p {
+  text-align: center;
+}
+
+.logotype {
+  width: $logotypeWidth;
+}
+
+
+
+
+
+@media all and (min-width: 800px) {
+  $headingFontSize: 20px;
+  $headingBaseline: 30px;
+
+  $sectionWidth: 700px;
+  $portraitMargin: 30px;
+
+  $headingLineHeight: $mainBackgroundTopOffsetPx*2 - $headingFontSize - $headingBaseline;
+
+
+
+  main {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient($nearWhite $mainBackgroundTopOffsetPx, $primaryColor 0%);
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+  }
+
+  .portrait {
+    order: -1;
+    height: 100%;
+    background: initial;
+    margin: 0 20px;
+  }
+
+  h1 {
+    background: initial;
+    text-align: left;
+    height: $mainBackgroundTopOffsetPx;
+    font-size: $headingFontSize;
+    display: flex;
+    align-items: flex-end;
+
+    //line-height:  $headingLineHeight;
+
+    strong {
+      display: inline;
+      font-size: inherit;
+      font-weight: bolder;
+      order: -1;
+      margin-right: 0.5em;
+    }
+  }
+
+  section > p {
+    text-align: left;
+  }
+
+}
+
+
 
 /* =======
     Print
