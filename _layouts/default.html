@@ -1,3 +1,7 @@
+---
+font: Josefin Sans
+weights: [300, 400]
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,8 +10,12 @@
 <!-- Meta -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 <!-- Styles -->
+<link href="https://fonts.googleapis.com/css?family={{ layout.font | uri_escape }}:{{ layout.weights | join: ','}}" rel="stylesheet">
 <link href="./css/normalize.css" rel="stylesheet" media="all">
 <link href="./css/default.css" rel="stylesheet" media="all">
+<style>
+html { font-family: {{layout.font}}}, Tahoma, sans-serif;
+</style>
 <!--[if lt IE 9]><script src="js/html5shiv-printshiv.js" media="all"></script><![endif]-->
 </head>
 <body>

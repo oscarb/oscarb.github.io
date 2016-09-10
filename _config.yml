@@ -9,6 +9,6 @@ description: To teach, design and program!
 # Jekyll config
 markdown: kramdown
 sass:
-  style: compressed
+  style: expanded
 gems:
   - jekyll-seo-tag
