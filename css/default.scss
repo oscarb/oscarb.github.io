@@ -125,12 +125,12 @@ h1 {
   background-color: $nearWhite;
   color: $nearBlack;
   font-weight: 300;
+  padding-bottom: 1.5rem;
 
   strong {
     display: block;
     font-size: xx-large;
     padding-top: 1rem;
-    padding-bottom: 1.5rem;
   }
 }
 
@@ -269,9 +269,11 @@ footer p {
   a[href]:after { content: " (" attr(href) ") "; }
   a[href] {
       font-weight:bold;
-      text-decoration:underline;
+      text-decoration:none;
       color:#06c;
       border:none;
+      margin: 0;
+      padding: 0;
   }
   /* Don't show link destinations for JavaScript or internal links */ 
   a[href^="javascript:"]:after, a[href^="#"]:after { content:""; }
@@ -285,4 +287,8 @@ footer p {
   }
   
   figure img { border:1px solid #000; }
+
+  img.logotype {
+    filter: brightness(0);
+  }
 }
