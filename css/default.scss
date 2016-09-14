@@ -15,11 +15,9 @@ https://cloudfour.com/thinks/the-ems-have-it-proportional-media-queries-ftw/
 http://bradfrost.com/demo/ish/
 */
 
-/* Default link styling */
-a:link { color:#0271fb; }
-a:visited { color:#bd02fb; }
-a:hover, a:focus { color:#000; }
-a:active { color:#fb0e02; }
+
+@import '_base';
+
 
 
 // Config
@@ -29,6 +27,7 @@ $portraitBorderSize: 6px;
 $logotypeWidth: 40px;
 
 $oceanBlue: #184b81;
+$oceanGreen: #18814f;
 $nearWhite: rgb(255, 255, 255);
 $nearBlack: rgba(0, 0, 0, .80);
 
@@ -37,6 +36,7 @@ $mainBackgroundTopOffset: 65%;
 $mainBackgroundTopOffsetPx: $mainBackgroundTopOffset/100%*($portraitSize+$portraitBorderSize*2);
 
 $primaryColor: $oceanBlue;
+$accentColor: $oceanGreen;
 
 
 /* Flexbox test */
@@ -52,7 +52,6 @@ body {
   color: $nearBlack;
   width: 100%;
   height: 100%;
-  margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -66,6 +65,8 @@ body::before, body::after{
 
 body::before {
   background-color: $nearWhite;
+  min-height: 1.4rem;
+  flex-grow: 2;
 }
 
 main {
@@ -78,10 +79,37 @@ main {
 
 body::after {
   background-color: $primaryColor;
+  flex-grow: 3;
 }
 
 
 /* Mobile-first */
+
+/* Default link styling */
+
+a {
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.15);
+  margin: 0rem;
+  padding: 0.4rem 0.4rem;
+  border-radius: 0.5rem;
+}
+
+a:link {
+  color: $nearWhite;
+}
+a:visited {
+  color: $nearWhite;
+}
+a:hover, a:focus {
+  color: $nearWhite;
+  background-color: rgba($accentColor, 1);
+}
+a:active {
+  color: $nearWhite;
+  box-shadow: 0 0.3rem 0.3rem 0 rgba(0, 0, 0, 0.15);
+}
+
 
 // List links should have more space...
 ul {
@@ -94,11 +122,13 @@ h1 {
   margin: 0;
   background-color: $nearWhite;
   color: $nearBlack;
-  font-weight: normal;
+  font-weight: 300;
 
   strong {
     display: block;
     font-size: xx-large;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
   }
 }
 
@@ -124,19 +154,31 @@ h1 {
 
 
 p {
+  font-size: 1.2rem;
   text-align: center;
+  line-height: 2;
+  margin: 0 0 1rem 0;
+  padding: 0 1rem;
 }
 
 .logotype {
   width: $logotypeWidth;
 }
 
+footer {
+  margin-top: 2.0rem;
+}
+
+footer p {
+  font-size: smaller;
+  margin-bottom: 0.5rem;
+  //color: rgba(white, 0.7);
+}
 
 
 
-
-@media all and (min-width: 800px) {
-  $headingFontSize: 20px;
+@media all and (min-width: 50rem) {
+  $headingFontSize: 48px;
   $headingBaseline: 30px;
 
   $sectionWidth: 700px;
@@ -152,11 +194,17 @@ p {
     background: linear-gradient($nearWhite $mainBackgroundTopOffsetPx, $primaryColor 0%);
   }
 
+  body::before, body::after {
+    flex-grow: 1;
+  }
+
   section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-end;
+    position: relative;
+    left: $portraitSize/2;
   }
 
   .portrait {
@@ -174,19 +222,27 @@ p {
     display: flex;
     align-items: flex-end;
 
-    //line-height:  $headingLineHeight;
+    line-height:  1.7;
+    padding-bottom: 1rem;
 
     strong {
       display: inline;
       font-size: inherit;
       font-weight: bolder;
       order: -1;
-      margin-right: 0.5em;
+      margin: 0 0.6rem 0 0;
+      padding: 0;
     }
   }
 
   section > p {
     text-align: left;
+    padding: 0;
+  }
+
+  footer p {
+    text-align: left;
+    padding: 0;
   }
 
 }
@@ -222,7 +278,7 @@ p {
   abbr[title]:after { content: " (" attr(title) ")"; }
   
   figure { 
-      margin-bottom:1em; 
+      margin-bottom:1rem;
       overflow:hidden;
   }
   
