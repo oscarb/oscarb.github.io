@@ -1,0 +1,25 @@
+// Base CSS independent from oscarb.se specific style
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+a,
+button {
+    color: inherit;
+    transition: .2s;
+}
+a {
+    text-decoration: none;
+}
+
+abbr[title] {
+  text-decoration: none;
+}
