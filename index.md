@@ -12,7 +12,7 @@ published: true
 
 Teacher, Android developer and UX designer.
 
-See my cv at [LinkedIn](https://github.com/oscarb), my projects at [GitHub](https://github.com/oscarb) or send me an [email](mailto:hi@oscarb.se).
+See my cv at [LinkedIn](http://se.linkedin.com/in/oscarbjorkman/), my projects at [GitHub](https://github.com/oscarb) or send me an [email](mailto:hi@oscarb.se).
 
 
 *[cv]: Curriculum vitae
