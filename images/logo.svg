@@ -2,15 +2,10 @@
 
 <svg version="1.1"
      baseProfile="full"
-     viewBox="0 0 70 70"
+     viewBox="0 0 50 70"
      xmlns="http://www.w3.org/2000/svg">
      <title>oscarb logotype</title>
      <desc>Blue narrow and wide rectangle-shaped logotype for Oscar B</desc>
-     <defs>
-          <mask id="hole">
-               <rect width="100%" height="100%" fill="white" />
-               <rect x="20" y="30" width="30" height="10" />
-          </mask>
-     </defs>
-     <rect id="logotype-shape" x="10" y="20" width="50" height="30" fill="#fff" mask="url(#hole)"/>
+     <rect id="logotype-shape" x="5" y="25" width="40" height="20" fill="none"
+       stroke="white" stroke-width="10"/>
 </svg>
