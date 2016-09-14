@@ -1,7 +1,8 @@
 # Site config
 name: oscarb.se
 description: To teach, design and program!
-# url: oscarb.se
+url: http://oscarb.github.io
+baseurl: /
 # author
 # logo
 # social
