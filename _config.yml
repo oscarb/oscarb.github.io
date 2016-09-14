@@ -1,6 +1,10 @@
 # Site config
 name: oscarb.se
 description: To teach, design and program!
+colors:
+  primary: '#184b81'
+  accent: '#18814f'
+
 # url: oscarb.se
 # author
 # logo

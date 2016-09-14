@@ -35,8 +35,10 @@ $mainBackgroundTopOffset: 65%;
 
 $mainBackgroundTopOffsetPx: $mainBackgroundTopOffset/100%*($portraitSize+$portraitBorderSize*2);
 
-$primaryColor: $oceanBlue;
-$accentColor: $oceanGreen;
+$primaryColor: {{ site.colors.primary }};
+$accentColor: {{ site.colors.accent }};
+
+
 
 
 /* Flexbox test */
