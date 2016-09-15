@@ -1,4 +1,7 @@
 # oscarb.github.io
+
+![oscarb.se logotype](android-chrome-192x192.png)
+
 Official personal website and portfolio, see http://oscarb.github.io/
 
 ## Resources
