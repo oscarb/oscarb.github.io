@@ -1,11 +1,11 @@
-<?xml-stylesheet type="text/css" href="../css/defaults.css"?>
-
 <svg version="1.1"
      baseProfile="full"
      viewBox="0 0 50 70"
-     xmlns="http://www.w3.org/2000/svg">
-     <title>oscarb logotype</title>
-     <desc>Blue narrow and wide rectangle-shaped logotype for Oscar B</desc>
+     aria-labelledby="title"
+     aria-describedby="desc"
+     role="img">
+     <title id="title">oscarb logotype</title>
+     <desc id="desc">White narrow and wide rectangle-shaped logotype against a blue background</desc>
      <rect id="logotype-shape" x="5" y="25" width="40" height="20" fill="none"
        stroke="white" stroke-width="10"/>
 </svg>

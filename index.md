@@ -6,7 +6,7 @@ published: true
 
 # Oscar is my name. **Hi!**
 
-<div class="portrait" markdown="1">
+<div class="portrait" markdown="1" role="img">
 ![me](./images/me.png)
 </div>
 
