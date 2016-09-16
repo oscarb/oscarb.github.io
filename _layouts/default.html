@@ -29,6 +29,7 @@ weights: [300, 400]
 <main>
 <section>
 {{ content }}
+{% include browser-upgrade.html %}
 <footer>
 {% capture footer %}{% include footer.md %}{% endcapture %}
 {{ footer | markdownify }}
