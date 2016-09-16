@@ -26,11 +26,11 @@ weights: [300, 400]
 <!--[if lt IE 9]><script src="js/html5shiv-printshiv.js" media="all"></script><![endif]-->
 </head>
 <body>
-<main>
+<main role="main">
 <section>
 {{ content }}
 {% include browser-upgrade.html %}
-<footer>
+<footer role="contentinfo">
 {% capture footer %}{% include footer.md %}{% endcapture %}
 {{ footer | markdownify }}
 </footer>
