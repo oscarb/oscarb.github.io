@@ -2,7 +2,7 @@
 name: oscarb.se
 description: To teach, design and program!
 url: http://oscarb.github.io
-baseurl: /
+baseurl:
 colors:
   primary: '#184b81'
   accent: '#18814f'
