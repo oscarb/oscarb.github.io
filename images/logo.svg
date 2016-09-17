@@ -4,8 +4,8 @@
      aria-labelledby="title"
      aria-describedby="desc"
      role="img">
-     <title id="title">oscarb logotype</title>
-     <desc id="desc">White narrow and wide rectangle-shaped logotype against a blue background</desc>
-<polyline points="5,0 5,25 45,25 45,5 0,5" fill="none" stroke="white" stroke-width="10" class="line"  />
-
+  <title id="title">oscarb logotype</title>
+  <desc id="desc">White narrow and wide rectangle-shaped logotype against a blue background</desc>
+  <polyline points="5,0 5,25 45,25 45,5 0,5" fill="none" stroke="white" stroke-width="10" class="line"  />
+  <image src="mstile-70x70.png" />
 </svg>
