@@ -254,7 +254,7 @@ footer p {
     Print
    ======= */
 @media print {
-  body {
+  body p, a {
       color:#000 !important;
       box-shadow:none !important;
       text-shadow:none !important;
@@ -285,7 +285,8 @@ footer p {
   
   figure img { border:1px solid #000; }
 
-  img.logotype {
+  .logotype {
+    transition: none;
     filter: brightness(0);
   }
 }
