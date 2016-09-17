@@ -1,0 +1,24 @@
+
+svg .line {
+  stroke-dasharray: 0 125;
+  animation: draw 3s cubic-bezier(0.28, 1.07, 0.29, 0.94) 1s forwards;
+}
+
+@keyframes draw {
+  from {
+    stroke: rgba($nearWhite, 0);
+  }
+  1% {
+    stroke-linecap: square;
+  }
+
+  20% {
+    stroke: rgba($nearWhite, 1);
+  }
+
+  to {
+    stroke-linecap: square;
+    stroke-dasharray: 125 0;
+
+  }
+}
