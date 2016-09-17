@@ -20,6 +20,7 @@ http://bradfrost.com/demo/ish/
 
 
 
+
 // Config
 $portraitSize: 150px;
 $portraitBorderSize: 6px;
@@ -39,7 +40,7 @@ $primaryColor: {{ site.colors.primary }};
 $accentColor: {{ site.colors.accent }};
 
 
-
+@import 'animation';
 
 /* Flexbox test */
 
