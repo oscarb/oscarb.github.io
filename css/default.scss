@@ -95,7 +95,7 @@ body::after {
 a {
   font-weight: bold;
   background-color: rgba(0, 0, 0, 0.15);
-  margin: 0rem;
+  margin: 0;
   padding: 0.4rem 0.4rem;
   border-radius: 0.5rem;
 }
@@ -254,7 +254,7 @@ footer p {
     Print
    ======= */
 @media print {
-  * {
+  body {
       color:#000 !important;
       box-shadow:none !important;
       text-shadow:none !important;
@@ -274,8 +274,6 @@ footer p {
       margin: 0;
       padding: 0;
   }
-  /* Don't show link destinations for JavaScript or internal links */ 
-  a[href^="javascript:"]:after, a[href^="#"]:after { content:""; }
   
   /* Show abbr title value in brackets after the text */
   abbr[title]:after { content: " (" attr(title) ")"; }
