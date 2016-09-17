@@ -17,6 +17,7 @@ sass:
   style: compressed
 gems:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 
 # compress config
