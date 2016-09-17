@@ -6,12 +6,5 @@
      role="img">
   <title id="title">oscarb logotype</title>
   <desc id="desc">White narrow and wide rectangle-shaped logotype against a blue background</desc>
-  <switch>
-  <g>
-    <polyline points="5,0 5,25 45,25 45,5 0,5" fill="none" stroke="white" stroke-width="10" class="line"  />
-  </g>
-  <foreignObject>
-    <img src="mstile-70x70.png" />
-  </foreignObject>
-  </switch>
+  <polyline points="5,0 5,25 45,25 45,5 0,5" fill="none" stroke="white" stroke-width="10" class="line"  />
 </svg>
