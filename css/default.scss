@@ -30,15 +30,15 @@ $logotypeWidth: 40px;
 
 $oceanBlue: #184b81;
 $oceanGreen: #18814f;
-$nearWhite: rgb(255, 255, 255);
+$nearWhite: rgb(254, 254, 254);
 $nearBlack: rgba(0, 0, 0, .80);
 
 $mainBackgroundTopOffset: 65%;
 
 $mainBackgroundTopOffsetPx: $mainBackgroundTopOffset/100%*($portraitSize+$portraitBorderSize*2);
 
-$primaryColor: {{ site.colors.primary }};
-$accentColor: {{ site.colors.accent }};
+$primaryColor: {{ site.data.colors.primary }};
+$accentColor: {{ site.data.colors.accent }};
 
 
 @import 'animation';
@@ -176,6 +176,10 @@ footer {
 footer p {
   font-size: smaller;
   //color: rgba(white, 0.7);
+}
+
+.logotype .line {
+  stroke: $nearWhite;
 }
 
 

@@ -1,14 +1,11 @@
 # Site config
 name: oscarb.se
-description: To teach, design and program!
+description: Teacher, Android developer and UX designer
 url: http://oscarb.github.io
 baseurl:
-colors:
-  primary: '#184b81'
-  accent: '#18814f'
 
-# author
-# logo
+author: oscarb
+logo: /images/logo-transparent-blue.png
 # social
 
 # Jekyll config
