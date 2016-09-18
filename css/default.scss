@@ -5,18 +5,6 @@
    Styles
    ======= */
 
-
-/* Breakpoints:
- - mobile (min-device-width : 320px) and (max-device-width : 480px)
- - tablets (min-device-width : 768px) and (max-device-width : 1024px)
-http://1stwebdesigner.com/responsive-design-breakpoints/
- - https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints
-https://cloudfour.com/thinks/the-ems-have-it-proportional-media-queries-ftw/
-http://bradfrost.com/demo/ish/
-*/
-
-
-
 @import '_my-normalize';
 @import '_base';
 
@@ -43,7 +31,6 @@ $accentColor: {{ site.data.colors.accent }};
 
 @import 'animation';
 
-/* Flexbox test */
 
 html {
   font-size: 16px;

@@ -1,6 +1,7 @@
 # Site config
 name: oscarb.se
 description: Teacher, Android developer and UX designer
+keywords: [teacher, developer, designer, android, education, technology, design]
 url: http://oscarb.github.io
 baseurl:
 

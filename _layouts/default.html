@@ -8,6 +8,7 @@ weights: [300, 400]
 <head>
 <meta charset="utf-8">
 {% seo %}
+<meta name="keywords" content="{{ site.keywords | join: ', ' }}">
 <!-- Icons -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -38,8 +39,6 @@ weights: [300, 400]
 </main>
 <!-- Scripts -->
 {% include google-tag-manager.html %}
-<script>
-function egg(){a.src="/images/manlike.png"}var a=document.getElementsByTagName("img")[0],n=0,d="Android";a.ondragover=function(a){a.preventDefault()},a.ondrop=function(a){a.preventDefault(),a.dataTransfer.getData("text").trim()==d&&egg()},a.onclick=function(){window.getSelection().toString().trim()==d&&n++,n>6&&egg()};
-</script>
+{% include egg.html %}
 </body>
 </html>
