@@ -12,3 +12,4 @@ Official personal website and portfolio, see http://oscarb.github.io/
 * [Sass: Syntactically Awesome Style Sheets](http://sass-lang.com/)
 * [SVG | MDN](https://developer.mozilla.org/en-US/docs/Web/SVG)
 * [Favicon Generator](https://realfavicongenerator.net/)
+* [Josefin Sans - Google Fonts](https://fonts.google.com/specimen/Josefin+Sans)
