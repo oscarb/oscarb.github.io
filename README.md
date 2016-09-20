@@ -13,3 +13,4 @@ Official personal website and portfolio, see http://oscarb.github.io/
 * [SVG | MDN](https://developer.mozilla.org/en-US/docs/Web/SVG)
 * [Favicon Generator](https://realfavicongenerator.net/)
 * [Josefin Sans - Google Fonts](https://fonts.google.com/specimen/Josefin+Sans)
+* [Why Static Website Generators Are The Next Big Thing](https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/)
