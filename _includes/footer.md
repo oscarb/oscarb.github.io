@@ -1,3 +1,3 @@
-Made with ♥ using Jekyll and hosted at GitHub Pages 
+Made with ♥ using Jekyll, GitHub and Netlify
 
 {% include_relative images/logo.svg %}{:.logotype}
