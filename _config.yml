@@ -5,6 +5,8 @@ keywords: [teacher, developer, designer, android, education, technology, design]
 url: http://oscarb.github.io
 baseurl:
 
+repository: oscarb/oscarb.github.io
+
 author: oscarb
 logo: /images/logo-transparent-blue.png
 # social
