@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/oscarb
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.oscarb.se
+  * I am oscarb (https://keybase.io/oscarb) on keybase.
+  * I have a public key with fingerprint CC21 B826 1C12 C9F6 D7E6  A107 1741 150B 1F6E DED3
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101213d83c144e0b8cc31a569ff0b28eb2a66a8ce475e75a4f56c86ebb46e4df1930a",
+            "fingerprint": "cc21b8261c12c9f6d7e6a1071741150b1f6eded3",
+            "host": "keybase.io",
+            "key_id": "1741150b1f6eded3",
+            "kid": "0101213d83c144e0b8cc31a569ff0b28eb2a66a8ce475e75a4f56c86ebb46e4df1930a",
+            "uid": "724aa048ce4d9c2120360417f6556d19",
+            "username": "oscarb"
+        },
+        "service": {
+            "hostname": "www.oscarb.se",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1476702634,
+    "expire_in": 157680000,
+    "prev": "3e890dcb167a7b5bbd06bc872514598860cae16bc1404ab425eaa27dbfe988c0",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMIkAnicrZJbSBRRGMfXS1lSZpAUKpUTROVi58zlzOwS3STEQo16kdjazjlzZh3X
+dtaZ2dXoSlcqKQpRiiJ7EMReUiKizC4WXQQzKqgwetDuL4XdpOsZq7ceOy+H832/
+//+7cK5PTPNlphz/9magR4iEU3qvNiV8lekd7ZsEYukbheAmIcpGL1ajM8cNR01d
+CAoAAihCSdckCmWZAaJRKkGsoIBhACJqjIgYIaxRJqsKUxUsGwqiGmKEyIjJugED
+EsCCXzDMWITZcduMudyWUhESTUSQQpEGDKSrDGEIVKjKECqAQAMxnekSF1ZZjqfg
+zRHssCLT4jH+CI+29w/+P/edGLVTRRljIHu4HuC9i0BCQIaqgRQF6TDggQ6zY3gD
+47TlUGwTYYtf4LGkSZm3Vm+OP/m6urqi30yRw7g0bluuRa0anqpy3bgT9KTuxvgo
+y0j4j0uYmDGdr5Erksx2TCsmBCEnqWt6tlBWkQpEJMl+gdXHTZuFTY9QVKQBfrw6
+LMktJaYFgE4JRCpWiUKIDhChmioqUFYCmoYAxQzyEJSBjIksKgxjUdWJwXiWAsGb
+qzZmCUFeycURbumYkRh2EzYTtly7Ekr3pWT6xo5J9b6XL3N89t9Pt6Mk42ciM7fl
+XNC3x7wTevm0u7Yg+vXHxJcLIi2fn9gPT+rzGosbZp5/tqrz5tHnnxon9+V2tL7S
+Tt/vHMha9HE4Wpa23R95G03MPpDz9uyaVxfnp424zbSqc11P05dlJdvR0NpjbNrc
+/ges7MzBxoyFu+6F3h+qLr09ZWVL2wF/3vQbwEje2tqck1U8s1ypLcvP82W3DIz0
+VSw59qECBPwFVeuf51+YUyo9GpowXDCpvWfz4e75L+ovvVu960LBit1p4f3L9zqt
+R2aFTp+IVD89lbHt2bhP5UvNrMv96cWpZ7q2zrvbHtq3eFJD5c7CGd/bsu2sx4Og
+K5l83Z/t9BZaGd1Trw/mLur7BRrzPn8=
+=FNrN
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/oscarb
+
+==================================================================
