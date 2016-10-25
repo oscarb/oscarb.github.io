@@ -27,6 +27,7 @@ $mainBackgroundTopOffsetPx: $mainBackgroundTopOffset/100%*($portraitSize+$portra
 
 $primaryColor: {{ site.data.colors.primary }};
 $accentColor: {{ site.data.colors.accent }};
+$backgroundColor: rgb(255, 255, 255);
 
 
 @import 'animation';
@@ -55,7 +56,7 @@ body::before, body::after{
 }
 
 body::before {
-  background-color: $nearWhite;
+  background-color: $backgroundColor;
   min-height: 1.4rem;
   flex-grow: 2;
 }
@@ -111,7 +112,7 @@ ul {
 h1 {
   font-size: x-large;
   margin: 0;
-  background-color: $nearWhite;
+  background-color: $backgroundColor;
   color: $nearBlack;
   font-weight: 300;
   padding-bottom: 1.5rem;
@@ -125,16 +126,16 @@ h1 {
 
 .portrait {
   position: relative;
-  background: linear-gradient($nearWhite $mainBackgroundTopOffset, $primaryColor 0%)
+  background: linear-gradient($backgroundColor $mainBackgroundTopOffset, $primaryColor 0%)
 }
 
 
 .portrait img {
   width: $portraitSize;
   height: $portraitSize;
-  border: 6px solid $nearWhite;
+  border: 6px solid $backgroundColor;
   border-radius: 50%;
-  background-color: $nearWhite;
+  background-color: $backgroundColor;
 }
 
 
@@ -186,7 +187,7 @@ footer p {
   main {
     display: flex;
     justify-content: center;
-    background: linear-gradient($nearWhite $mainBackgroundTopOffsetPx, $primaryColor 0%);
+    background: linear-gradient($backgroundColor $mainBackgroundTopOffsetPx, $primaryColor 0%);
     text-align: left;
   }
 
