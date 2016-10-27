@@ -2,7 +2,7 @@
 
 ![oscarb.se logotype](android-chrome-192x192.png)
 
-Official personal website and portfolio, see http://oscarb.se
+Official personal website and portfolio, see https://www.oscarb.se
 
 ## Resources
 
