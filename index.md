@@ -11,7 +11,7 @@ published: true
 
 Teacher, UX designer and [Google Certified](http://bcert.me/sgfuarcy) Android Developer.
 
-Take a look at my at [Google Play](https://play.google.com/store/apps/developer?id=oscarb). 
+Take a look at my at apps at [Google Play](https://play.google.com/store/apps/developer?id=oscarb). 
 
 See my cv at [LinkedIn](http://se.linkedin.com/in/oscarbjorkman/), my projects at [GitHub](https://github.com/oscarb) or send me an [email](mailto:hi@oscarb.se).
 
