@@ -9,9 +9,9 @@ published: true
 ![me](/images/me.png)
 </div>
 
-Teacher, Android developer and UX designer.
+Teacher, UX designer and [Google Certified](http://bcert.me/sgfuarcy) Android Developer.
 
-Get my app Pinapple from [Google Play](https://play.google.com/store/apps/details?id=se.oscarb.pinapple). It makes remembering PIN codes easy and safe.
+Take a look at my at [Google Play](https://play.google.com/store/apps/developer?id=oscarb). 
 
 See my cv at [LinkedIn](http://se.linkedin.com/in/oscarbjorkman/), my projects at [GitHub](https://github.com/oscarb) or send me an [email](mailto:hi@oscarb.se).
 
