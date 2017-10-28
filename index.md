@@ -9,7 +9,7 @@ published: true
 ![me](/images/me.png)
 </div>
 
-Teacher, UX designer and [Google Certified](http://bcert.me/sgfuarcy) Android Developer.
+Teacher, UX designer and [Google Certified](https://www.credential.net/q2ct5c7s) Android Developer.
 
 Take a look at my at apps at [Google Play](https://play.google.com/store/apps/developer?id=oscarb). 
 
