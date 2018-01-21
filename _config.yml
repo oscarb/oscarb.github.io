@@ -1,15 +1,20 @@
 # Site config
 name: oscarb.se
+title: oscarb.se 
 description: Teacher, Android developer and UX designer
 keywords: [teacher, developer, designer, android, education, technology, design]
-url: http://oscarb.github.io
+url: https://www.oscarb.se
 baseurl:
 
 repository: oscarb/oscarb.github.io
 
 author: oscarb
 logo: /images/logo-transparent-blue.png
-# social
+
+social:
+  links:
+    - http://se.linkedin.com/in/oscarbjorkman/
+    - https://github.com/oscarb
 
 # Jekyll config
 markdown: kramdown
