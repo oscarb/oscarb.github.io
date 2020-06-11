@@ -9,7 +9,9 @@ published: true
 ![me](/images/me.png)
 </div>
 
-Developer of Android apps and co-creator of [Hejare](https://hejare.se) with a passion for UX and knowledge sharing.
+Developer of Android apps and co-creator of [Hejare](https://hejare.se).
+
+UX and knowledge sharing is my passion.
 
 See my cv at [LinkedIn](http://se.linkedin.com/in/oscarbjorkman/), my projects at [GitHub](https://github.com/oscarb) or my apps at [Google Play](https://play.google.com/store/apps/developer?id=oscarb).
 
