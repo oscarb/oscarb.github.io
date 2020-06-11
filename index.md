@@ -9,10 +9,10 @@ published: true
 ![me](/images/me.png)
 </div>
 
-Teacher, UX designer and [Google Certified](https://www.credential.net/q2ct5c7s) Android Developer.
+Developer of Android apps and co-creator of [Hejare](https://hejare.se).
 
-Take a look at my at apps at [Google Play](https://play.google.com/store/apps/developer?id=oscarb). 
+UX and knowledge sharing is my passion.
 
-See my cv at [LinkedIn](http://se.linkedin.com/in/oscarbjorkman/), my projects at [GitHub](https://github.com/oscarb) or send me an [email](mailto:hi@oscarb.se).
+See my cv at [LinkedIn](http://se.linkedin.com/in/oscarbjorkman/), my projects at [GitHub](https://github.com/oscarb) or my apps at [Google Play](https://play.google.com/store/apps/developer?id=oscarb).
 
 *[cv]: Curriculum vitae
