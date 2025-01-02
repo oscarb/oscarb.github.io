@@ -8,7 +8,7 @@ Official personal website and portfolio, see https://www.oscarb.se
 
 * [GitHub Pages](https://pages.github.com/)
 * [Jekyll](https://jekyllrb.com/)
-* [Counter](https://counter.dev/setup.html)
+* [Counter](https://counter.dev/)
 * [Sass: Syntactically Awesome Style Sheets](http://sass-lang.com/)
 * [SVG | MDN](https://developer.mozilla.org/en-US/docs/Web/SVG)
 * [Favicon Generator](https://realfavicongenerator.net/)
